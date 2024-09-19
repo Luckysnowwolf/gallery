@@ -36,8 +36,16 @@
     display: flex;
    margin-top: 50px;
 }
-h1{ color: orange;}
+h1{ color: orange;
+display: flex;
+justify-content: center;}
 p{ color: orange;}
+.p1{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .skull{
     display: flex;
     justify-items: flex-start;
@@ -61,12 +69,20 @@ border-right: 0px;
 .buttons:hover{
     color: chocolate;
 }
+.sub-div{
+    display: flex;
+    flex-direction: column;
+}
+.div-text-button{
+    display: flex;
+}
 .end-button:hover{
     color: chocolate;
 }
 .text-box{
 height: 25px;
 margin-right: 3px;
+width: 300px;
 }
 .end-button{
 height: 30px;
