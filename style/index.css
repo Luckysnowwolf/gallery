@@ -22,6 +22,20 @@
     height: 80%;
     width: 100%;
 }
+.images{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.galleryimages{
+    background-color: black;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    max-width: 100%;
+    width: 80%;
+
+
+}
 .last-part{
     background-color: bisque;
     display: flex;
