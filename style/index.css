@@ -10,6 +10,7 @@
 }
 .text-links-first{
     display: flex;
+    list-style: none;
     margin-top: 30px;
     margin-right: 80px;
 }
@@ -48,12 +49,30 @@
 }
 .text-links-last{
     display: flex;
-   margin-top: 50px;
+    list-style: none;
+    margin-top: 50px;
 }
 h1{ color: orange;
 display: flex;
-justify-content: center;}
-p{ color: orange;}
+justify-content: center;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 72px;
+text-align: center;
+}
+
+p{ color: orange;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+color: #E9D4A9;
+
+}
 .p1{
     display: flex;
     justify-content: center;
